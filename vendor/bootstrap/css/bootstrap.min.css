@@ -1,0 +1,30 @@
+/* Inline blocks */
+.visible-inline,.visible-inline-block,.visible-xs,.visible-sm,.visible-md,.visible-lg{display:inline!important}
+
+/* Tables */
+table.visible-xs,table.visible-sm,table.visible-md,table.visible-lg{display:table!important}
+tr.visible-xs,tr.visible-sm,tr.visible-md,tr.visible-lg{display:table-row!important}
+th.visible-xs,th.visible-sm,th.visible-md,th.visible-lg,td.visible-xs,td.visible-sm,td.visible-md,td.visible-lg{display:table-cell!important}
+
+/* Blocks */
+.visible-xs-block,.visible-sm-block,.visible-md-block,.visible-lg-block{display:block!important}
+
+/* Inline */
+.visible-xs-inline,.visible-sm-inline,.visible-md-inline,.visible-lg-inline{display:inline!important}
+
+/* Inline-block */
+.visible-xs-inline-block,.visible-sm-inline-block,.visible-md-inline-block,.visible-lg-inline-block{display:inline-block!important}
+
+/* Hidden classes */
+.hidden-xs,.hidden-sm,.hidden-md,.hidden-lg{display:none!important}
+
+/* Visible print */
+.visible-print{display:none!important}
+@media print{.visible-print{display:block!important}table.visible-print{display:table}tr.visible-print{display:table-row!important}th.visible-print,td.visible-print{display:table-cell!important}}
+.visible-print-block{display:none!important}
+@media print{.visible-print-block{display:block!important}}
+.visible-print-inline{display:none!important}
+@media print{.visible-print-inline{display:inline!important}}
+.visible-print-inline-block{display:none!important}
+@media print{.visible-print-inline-block{display:inline-block!important}}
+.hidden-print{display:none!important}
